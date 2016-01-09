@@ -21,3 +21,4 @@ insecure                # Allow all DB writes from clients (for prototyping)
 react
 kadira:flow-router
 kadira:react-layout
+twbs:bootstrap

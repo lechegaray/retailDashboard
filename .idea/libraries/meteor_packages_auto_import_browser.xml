@@ -3,6 +3,7 @@
     <properties>
       <sourceFilesUrls>
         <item url="file://$USER_HOME$/.meteor/packages/ddp-common/1.2.2/web.browser/random_stream.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/kadira_react-layout/1.5.3/web.browser/lib/react_layout.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ddp-common/1.2.2/web.browser/method_invocation.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ddp-common/1.2.2/web.browser/namespace.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ddp-common/1.2.2/web.browser/utils.js" />
@@ -107,19 +108,27 @@
         <item url="file://$USER_HOME$/.meteor/packages/blaze-tools/1.0.4/web.browser/preamble.js" />
         <item url="file://$USER_HOME$/.meteor/packages/callback-hook/1.0.4/web.browser/hook.js" />
         <item url="file://$USER_HOME$/.meteor/packages/check/1.1.0/web.browser/match.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.10.0/web.browser/client.browserify.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.1/web.browser/sockjs-0.3.4.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.1/web.browser/random_stream.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.10.0/web.browser/client/router.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.1/web.browser/stream_client_common.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.10.0/web.browser/lib/router.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.1/web.browser/livedata_connection.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.10.0/web.browser/client/_init.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.1/web.browser/stream_client_sockjs.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.10.0/web.browser/client/group.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.1/web.browser/namespace.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.10.0/web.browser/client/route.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.1/web.browser/livedata_common.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.10.0/web.browser/client/triggers.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.1/web.browser/client_convenience.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.1/web.browser/id_map.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
       <root url="file://$USER_HOME$/.meteor/packages/ddp-common/1.2.2/web.browser/random_stream.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/kadira_react-layout/1.5.3/web.browser/lib/react_layout.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ddp-common/1.2.2/web.browser/method_invocation.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ddp-common/1.2.2/web.browser/namespace.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ddp-common/1.2.2/web.browser/utils.js" />
@@ -224,13 +233,20 @@
       <root url="file://$USER_HOME$/.meteor/packages/blaze-tools/1.0.4/web.browser/preamble.js" />
       <root url="file://$USER_HOME$/.meteor/packages/callback-hook/1.0.4/web.browser/hook.js" />
       <root url="file://$USER_HOME$/.meteor/packages/check/1.1.0/web.browser/match.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.10.0/web.browser/client.browserify.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.1/web.browser/sockjs-0.3.4.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.1/web.browser/random_stream.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.10.0/web.browser/client/router.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.1/web.browser/stream_client_common.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.10.0/web.browser/lib/router.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.1/web.browser/livedata_connection.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.10.0/web.browser/client/_init.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.1/web.browser/stream_client_sockjs.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.10.0/web.browser/client/group.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.1/web.browser/namespace.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.10.0/web.browser/client/route.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.1/web.browser/livedata_common.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.10.0/web.browser/client/triggers.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.1/web.browser/client_convenience.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.1/web.browser/id_map.js" />
     </CLASSES>
