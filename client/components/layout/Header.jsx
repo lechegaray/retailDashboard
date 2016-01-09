@@ -1,5 +1,32 @@
 Header = React.createClass({
+
+  mixins: [ReactMeteorData],
+
+  getMeteorData() {
+    return {
+      currentUser: Meteor.user(),
+      party: "Yay!"
+    }
+  },
+
+  handleLogout() {
+    Meteor.logout();
+  },
+
   render() {
+    let loginButton;
+    let { currentUser, party } = this.data;
+
+    if (currentUser) {
+      loginButton = (
+        <li><a href="#" onClick={ this.handleLogout }>Logout</a></li>
+      )
+    } else {
+      loginButton = (
+        <li><a href="/login">Login</a></li>
+      )
+    }
+
     return (
       <nav className="navbar navbar-default" role="navigation">
         <div className="container">
@@ -11,7 +38,7 @@ Header = React.createClass({
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <div className="navbar-brand navbar-brand-centered">Dashboard</div>
+            <div className="navbar-brand navbar-brand-centered">Dashboard { party }</div>
           </div>
 
 
@@ -24,7 +51,7 @@ Header = React.createClass({
             <ul className="nav navbar-nav navbar-right">
               <li><a href="#">Link</a></li>
               <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
+              { loginButton }
             </ul>
           </div>
         </div>
