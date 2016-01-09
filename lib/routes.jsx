@@ -1,6 +1,14 @@
 FlowRouter.route("/", {
   name: "Home",
   action(params) {
-    ReactLayout.render(Home);
+    renderMainLayoutWith(<Home />)
   }
 });
+
+function renderMainLayoutWith(component) {
+  ReactLayout.render(MainLayout, {
+    header: <Header />,
+    content: component,
+    footer: <Footer />
+  });
+}
