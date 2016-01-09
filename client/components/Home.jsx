@@ -1,7 +1,12 @@
 Home = React.createClass({
   render() {
     return (
-      <h1>Dashboard</h1>
+      <div className="jumbotron">
+        <div className="container">
+          <h1 className="text-center">Dashboard</h1>
+          <p className="text-center">Welcome to our dashboard!</p>
+        </div>
+      </div>
     )
   }
 });
