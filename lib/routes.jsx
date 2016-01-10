@@ -19,6 +19,13 @@ FlowRouter.route("/employees", {
   }
 });
 
+FlowRouter.route("/schedule", {
+  name: "Schedule",
+  action(params) {
+    renderMainLayoutWith(<Schedule />);
+  }
+});
+
 function renderMainLayoutWith(component) {
   ReactLayout.render(MainLayout, {
     header: <Header />,

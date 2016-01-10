@@ -37,11 +37,17 @@ EmployeesSection = React.createClass({
         <div className="container">
           <header>
             <h1>Employee List</h1>
-            <table>
-              <th>First Name</th>
-              <th>Last Name</th>
-              <th>Wage</th>
+            <table className="table">
+              <thead>
+              <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Wage</th>
+              </tr>
+              </thead>
+              <tbody>
               {this.renderEmployees()}
+              </tbody>
             </table>
           </header>
         </div>
@@ -53,7 +59,7 @@ EmployeesSection = React.createClass({
               <form onSubmit={ this.onSubmit }>
                 <input type="text" name="firstName" placeholder="Enter employee first name" className="form-control" />
                 <input type="text" name="lastName" placeholder="Enter employee last name" className="form-control" />
-                <input type="text" name="wage" placeholder="Enter employee hourly wage" className="form-control" />
+                <input type="number" name="wage" placeholder="Enter employee hourly wage" className="form-control" />
                 <input type="submit" value="Insert" className="btn btn-default"/>
               </form>
 
