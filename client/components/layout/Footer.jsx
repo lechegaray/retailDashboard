@@ -1,7 +1,7 @@
 Footer = React.createClass({
   render() {
     return (
-      <div></div>
+      <div className="panel-footer"> This is the footer.</div>
     )
   }
 });

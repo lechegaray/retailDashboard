@@ -44,7 +44,7 @@ Header = React.createClass({
 
           <div className="collapse navbar-collapse" id="navbar-brand-centered">
             <ul className="nav navbar-nav">
-              <li><a href="#">Link</a></li>
+              <li><a href="/employees">Employees</a></li>
               <li><a href="#">Link</a></li>
               <li><a href="#">Link</a></li>
             </ul>
