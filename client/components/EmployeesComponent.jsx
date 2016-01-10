@@ -6,7 +6,11 @@ EmployeesComponent = React.createClass({
 
   render() {
     return (
-      <li>{this.props.employee.name}</li>
+      <tr>
+        <td>{this.props.employee.firstName}</td>
+        <td>{this.props.employee.lastName}</td>
+        <td>{this.props.employee.wage}</td>
+      </tr>
     );
   }
 });

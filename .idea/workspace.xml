@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ec4ff715-4f8a-4739-ae57-ac1ce90edf2d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/layout/Footer.jsx" afterPath="$PROJECT_DIR$/client/components/layout/Footer.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/layout/Header.jsx" afterPath="$PROJECT_DIR$/client/components/layout/Header.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/routes.jsx" afterPath="$PROJECT_DIR$/lib/routes.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/EmployeesComponent.jsx" afterPath="$PROJECT_DIR$/client/components/EmployeesComponent.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/navigation/EmployeesSection.jsx" afterPath="$PROJECT_DIR$/client/components/navigation/EmployeesSection.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/users/UserLogin.jsx" afterPath="$PROJECT_DIR$/client/components/users/UserLogin.jsx" />
     </list>
     <ignored path="bakery-dashboard.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EmployeesSection.jsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/components/navigation/EmployeesSection.jsx">
+      <file leaf-file-name="UserLogin.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/components/users/UserLogin.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27962717">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -37,6 +37,26 @@
       </file>
       <file leaf-file-name="EmployeesComponent.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/components/EmployeesComponent.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeesSection.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/components/navigation/EmployeesSection.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.758988">
+              <caret line="55" column="74" selection-start-line="55" selection-start-column="74" selection-end-line="55" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/components/Home.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
@@ -58,15 +78,15 @@
         <option value="$PROJECT_DIR$/client/components/layout/MainLayout.jsx" />
         <option value="$PROJECT_DIR$/client/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/server/bootstrap.jsx" />
-        <option value="$PROJECT_DIR$/client/components/users/UserLogin.jsx" />
         <option value="$PROJECT_DIR$/client/components/layout/Header.jsx" />
         <option value="$PROJECT_DIR$/client/components/Employees.jsx" />
         <option value="$PROJECT_DIR$/server/publications.jsx" />
         <option value="$PROJECT_DIR$/lib/methods.jsx" />
         <option value="$PROJECT_DIR$/lib/routes.jsx" />
-        <option value="$PROJECT_DIR$/client/components/navigation/EmployeesSection.jsx" />
-        <option value="$PROJECT_DIR$/client/components/EmployeesComponent.jsx" />
         <option value="$PROJECT_DIR$/client/components/layout/Footer.jsx" />
+        <option value="$PROJECT_DIR$/client/components/users/UserLogin.jsx" />
+        <option value="$PROJECT_DIR$/client/components/EmployeesComponent.jsx" />
+        <option value="$PROJECT_DIR$/client/components/navigation/EmployeesSection.jsx" />
       </list>
     </option>
   </component>
@@ -78,7 +98,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-1917" />
     <option name="y" value="-277" />
-    <option name="width" value="1145" />
+    <option name="width" value="1113" />
     <option name="height" value="1173" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -189,6 +209,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bakery-dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bakery-dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -329,10 +371,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1917" y="-277" width="1145" height="1173" extended-state="0" />
+    <frame x="-1917" y="-277" width="1113" height="1173" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24628821" sideWeight="0.49647266" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25336927" sideWeight="0.49647266" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329806" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -378,14 +420,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/components/users/UserLogin.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3195739">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -438,14 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/components/Home.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21970706">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.061898213">
@@ -470,7 +496,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/components/EmployeesComponent.jsx">
+    <entry file="file://$PROJECT_DIR$/client/components/Home.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
@@ -478,10 +504,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/components/EmployeesComponent.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/components/users/UserLogin.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/components/navigation/EmployeesSection.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27962717">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.758988">
+          <caret line="55" column="74" selection-start-line="55" selection-start-column="74" selection-end-line="55" selection-end-column="74" />
           <folding />
         </state>
       </provider>
