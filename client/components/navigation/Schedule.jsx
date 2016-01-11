@@ -67,7 +67,7 @@ Schedule = React.createClass({
 
               <form onSubmit={ this.onSubmit }>
                 <input type="date" name="date" placeholder="Enter date" className="form-control"/>
-                <select className="form-control">
+                <select type="text" name="employee" className="form-control">
                   {this.renderEmployeeOptions()}
                 </select>
                 <input type="time" name="start-time" placeholder="Enter start time" className="form-control"/>
