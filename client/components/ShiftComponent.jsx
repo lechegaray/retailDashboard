@@ -17,7 +17,19 @@ ShiftComponent = React.createClass({
   },
 
   deleteShift() {
-    Shifts.remove(this.props.shift._id);
+    var shiftValue = this.props.shift._id;
+    swal({
+      title: "Are you sure?",
+      text: "You will not be able to recover this shift!",
+      type: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#DD6B55",
+      confirmButtonText: "Yes, delete it!",
+      closeOnConfirm: false
+    }, function () {
+      Shifts.remove(shiftValue);
+      swal("Deleted!", "Your shift has been deleted.", "success");
+    });
   },
 
   render() {
@@ -29,7 +41,7 @@ ShiftComponent = React.createClass({
         <td>{moment(this.props.shift.endTime).format("hh:mm A")}</td>
         <td>{this.calculateHoursWorked(this.props.shift.startTime, this.props.shift.endTime)}</td>
         <td>{accounting.formatMoney(this.calculateHoursWorked(this.props.shift.startTime, this.props.shift.endTime) * this.data.employee.wage)}</td>
-        <td><button onClick={this.deleteShift}>X</button></td>
+        <td><button id="deleteShiftConfirm" type="button" className="btn btn-primary btn-sm" onClick={this.deleteShift}>X</button></td>
       </tr>
     );
   }

@@ -73,6 +73,7 @@
         <item url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.7/web.browser/templatetag.js" />
         <item url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.7/web.browser/codegen.js" />
         <item url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.7/web.browser/optimizer.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/hinas_meteor-bootstrap-confirmation/0.9.0/web.browser/packages/hinas:meteor-bootstrap-confirmation.js" />
         <item url="file://$USER_HOME$/.meteor/packages/templating-tools/1.0.0/web.browser/templating-tools.js" />
         <item url="file://$USER_HOME$/.meteor/packages/autoupdate/1.2.4/web.browser/autoupdate_client.js" />
         <item url="file://$USER_HOME$/.meteor/packages/localstorage/1.0.5/web.browser/localstorage.js" />
@@ -80,10 +81,12 @@
         <item url="file://$USER_HOME$/.meteor/packages/templating-tools/1.0.0/web.browser/html-scanner.js" />
         <item url="file://$USER_HOME$/.meteor/packages/templating-tools/1.0.0/web.browser/throw-compile-error.js" />
         <item url="file://$USER_HOME$/.meteor/packages/templating-tools/1.0.0/web.browser/code-generation.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/kevohagan_sweetalert/1.0.0/web.browser/packages/kevohagan_sweetalert.js" />
         <item url="file://$USER_HOME$/.meteor/packages/babel-runtime/0.1.4/web.browser/babel-runtime.js" />
         <item url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.7.8_2/web.browser/packages/npm-bcrypt.js" />
         <item url="file://$USER_HOME$/.meteor/packages/tracker/1.0.9/web.browser/deprecated.js" />
         <item url="file://$USER_HOME$/.meteor/packages/tracker/1.0.9/web.browser/tracker.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/kevohagan_sweetalert/1.0.0/web.browser/packages/kevohagan_sweetalert/sweetalert/lib/sweet-alert.css" />
         <item url="file://$USER_HOME$/.meteor/packages/base64/1.0.4/web.browser/base64.js" />
         <item url="file://$USER_HOME$/.meteor/packages/rate-limit/1.0.0/web.browser/rate-limit.js" />
         <item url="file://$USER_HOME$/.meteor/packages/binary-heap/1.0.4/web.browser/min-max-heap.js" />
@@ -218,6 +221,7 @@
       <root url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.7/web.browser/templatetag.js" />
       <root url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.7/web.browser/codegen.js" />
       <root url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.7/web.browser/optimizer.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/hinas_meteor-bootstrap-confirmation/0.9.0/web.browser/packages/hinas:meteor-bootstrap-confirmation.js" />
       <root url="file://$USER_HOME$/.meteor/packages/templating-tools/1.0.0/web.browser/templating-tools.js" />
       <root url="file://$USER_HOME$/.meteor/packages/autoupdate/1.2.4/web.browser/autoupdate_client.js" />
       <root url="file://$USER_HOME$/.meteor/packages/localstorage/1.0.5/web.browser/localstorage.js" />
@@ -225,10 +229,12 @@
       <root url="file://$USER_HOME$/.meteor/packages/templating-tools/1.0.0/web.browser/html-scanner.js" />
       <root url="file://$USER_HOME$/.meteor/packages/templating-tools/1.0.0/web.browser/throw-compile-error.js" />
       <root url="file://$USER_HOME$/.meteor/packages/templating-tools/1.0.0/web.browser/code-generation.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/kevohagan_sweetalert/1.0.0/web.browser/packages/kevohagan_sweetalert.js" />
       <root url="file://$USER_HOME$/.meteor/packages/babel-runtime/0.1.4/web.browser/babel-runtime.js" />
       <root url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.7.8_2/web.browser/packages/npm-bcrypt.js" />
       <root url="file://$USER_HOME$/.meteor/packages/tracker/1.0.9/web.browser/deprecated.js" />
       <root url="file://$USER_HOME$/.meteor/packages/tracker/1.0.9/web.browser/tracker.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/kevohagan_sweetalert/1.0.0/web.browser/packages/kevohagan_sweetalert/sweetalert/lib/sweet-alert.css" />
       <root url="file://$USER_HOME$/.meteor/packages/base64/1.0.4/web.browser/base64.js" />
       <root url="file://$USER_HOME$/.meteor/packages/rate-limit/1.0.0/web.browser/rate-limit.js" />
       <root url="file://$USER_HOME$/.meteor/packages/binary-heap/1.0.4/web.browser/min-max-heap.js" />
