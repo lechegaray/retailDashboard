@@ -9,7 +9,7 @@ EmployeesComponent = React.createClass({
       <tr>
         <td>{this.props.employee.firstName}</td>
         <td>{this.props.employee.lastName}</td>
-        <td>{this.props.employee.wage}</td>
+        <td>{accounting.formatMoney(this.props.employee.wage)}</td>
       </tr>
     );
   }

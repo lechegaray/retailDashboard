@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec4ff715-4f8a-4739-ae57-ac1ce90edf2d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/EmployeesComponent.jsx" afterPath="$PROJECT_DIR$/client/components/EmployeesComponent.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/ShiftComponent.jsx" afterPath="$PROJECT_DIR$/client/components/ShiftComponent.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/navigation/EmployeesSection.jsx" afterPath="$PROJECT_DIR$/client/components/navigation/EmployeesSection.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/navigation/Schedule.jsx" afterPath="$PROJECT_DIR$/client/components/navigation/Schedule.jsx" />
     </list>
     <ignored path="bakery-dashboard.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,8 +40,8 @@
           <file leaf-file-name="EmployeesSection.jsx" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/client/components/navigation/EmployeesSection.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6818182">
-                  <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+                <state vertical-scroll-proportion="0.45454547">
+                  <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -68,7 +65,7 @@
             <entry file="file://$PROJECT_DIR$/client/components/EmployeesComponent.jsx">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+                  <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -77,8 +74,8 @@
           <file leaf-file-name="ShiftComponent.jsx" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/client/components/ShiftComponent.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5681818">
-                  <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+                <state vertical-scroll-proportion="0.45454547">
+                  <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
                   <folding />
                 </state>
               </provider>
@@ -103,15 +100,15 @@
         <option value="$PROJECT_DIR$/server/publications.jsx" />
         <option value="$PROJECT_DIR$/client/components/layout/Footer.jsx" />
         <option value="$PROJECT_DIR$/client/components/users/UserLogin.jsx" />
-        <option value="$PROJECT_DIR$/client/components/EmployeesComponent.jsx" />
         <option value="$PROJECT_DIR$/lib/routes.jsx" />
         <option value="$PROJECT_DIR$/client/components/layout/Header.jsx" />
         <option value="$PROJECT_DIR$/lib/methods.jsx" />
         <option value="$PROJECT_DIR$/lib/collections.jsx" />
         <option value="$PROJECT_DIR$/client/components/EmployeeOption.jsx" />
-        <option value="$PROJECT_DIR$/client/components/ShiftComponent.jsx" />
         <option value="$PROJECT_DIR$/client/components/navigation/Schedule.jsx" />
+        <option value="$PROJECT_DIR$/client/components/EmployeesComponent.jsx" />
         <option value="$PROJECT_DIR$/client/components/navigation/EmployeesSection.jsx" />
+        <option value="$PROJECT_DIR$/client/components/ShiftComponent.jsx" />
       </list>
     </option>
   </component>
@@ -543,22 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/components/EmployeesComponent.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/components/ShiftComponent.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5681818">
-          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/collections.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.018939395">
@@ -593,8 +574,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/components/navigation/EmployeesSection.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6818182">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.45454547">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/components/EmployeesComponent.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/components/ShiftComponent.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45454547">
+          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
           <folding />
         </state>
       </provider>
