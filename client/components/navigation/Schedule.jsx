@@ -4,7 +4,7 @@ Schedule = React.createClass({
 
   getMeteorData() {
     return {
-      shifts: Shifts.find({}).fetch(),
+      shifts: Shifts.find({}, {sort: {date: -1}}).fetch(),
       employees: Employees.find({}).fetch()
     }
   },
