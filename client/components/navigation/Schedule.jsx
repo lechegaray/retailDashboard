@@ -43,6 +43,7 @@ Schedule = React.createClass({
   render() {
     return (
       <div>
+        <h1>Shifts</h1>
         <div>
           <table className="table">
             <thead>
@@ -66,12 +67,12 @@ Schedule = React.createClass({
               <h1>Enter Shift</h1>
 
               <form onSubmit={ this.onSubmit }>
-                <input type="date" name="date" placeholder="Enter date" className="form-control"/>
-                <select type="text" name="employee" className="form-control">
+                <input type="date" name="date" placeholder="Enter date" className="form-control" required/>
+                <select type="text" name="employee" className="form-control" required>
                   {this.renderEmployeeOptions()}
                 </select>
-                <input type="time" name="start-time" placeholder="Enter start time" className="form-control"/>
-                <input type="time" name="end-time" placeholder="Enter end time" className="form-control"/>
+                <input type="time" name="start-time" placeholder="Enter start time" className="form-control" required/>
+                <input type="time" name="end-time" placeholder="Enter end time" className="form-control" required/>
                 <input type="submit" value="Insert" className="btn btn-default"/>
               </form>
 

@@ -13,7 +13,7 @@ ShiftComponent = React.createClass({
   },
 
   calculateHoursWorked(start, end) {
-    return moment(end).diff(start, 'hours');
+    return accounting.toFixed(moment(end).diff(start, 'hours', true), 2);
   },
 
   render() {
@@ -24,7 +24,7 @@ ShiftComponent = React.createClass({
         <td>{moment(this.props.shift.startTime).format("H:mm A")}</td>
         <td>{moment(this.props.shift.endTime).format("H:mm A")}</td>
         <td>{this.calculateHoursWorked(this.props.shift.startTime, this.props.shift.endTime)}</td>
-        <td>{this.calculateHoursWorked(this.props.shift.startTime, this.props.shift.endTime) * this.data.employee.wage}</td>
+        <td>{accounting.formatMoney(this.calculateHoursWorked(this.props.shift.startTime, this.props.shift.endTime) * this.data.employee.wage)}</td>
       </tr>
     );
   }
