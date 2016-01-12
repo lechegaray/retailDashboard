@@ -16,6 +16,10 @@ ShiftComponent = React.createClass({
     return accounting.toFixed(moment(end).diff(start, 'hours', true), 2);
   },
 
+  deleteShift() {
+    Shifts.remove(this.props.shift._id);
+  },
+
   render() {
     return (
       <tr>
@@ -25,6 +29,7 @@ ShiftComponent = React.createClass({
         <td>{moment(this.props.shift.endTime).format("hh:mm A")}</td>
         <td>{this.calculateHoursWorked(this.props.shift.startTime, this.props.shift.endTime)}</td>
         <td>{accounting.formatMoney(this.calculateHoursWorked(this.props.shift.startTime, this.props.shift.endTime) * this.data.employee.wage)}</td>
+        <td><button onClick={this.deleteShift}>X</button></td>
       </tr>
     );
   }
