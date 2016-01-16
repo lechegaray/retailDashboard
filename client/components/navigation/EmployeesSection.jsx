@@ -41,6 +41,7 @@ EmployeesSection = React.createClass({
                 <th>First Name</th>
                 <th>Last Name</th>
                 <th>Wage/Hr</th>
+                <th>Remove</th>
               </tr>
               </thead>
               <tbody>

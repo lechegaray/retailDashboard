@@ -36,6 +36,16 @@ Meteor.methods({
 
     Shifts.remove(shiftValue);
 
+  },
+
+  removeEmployee(employeeId) {
+
+    if (! Meteor.userId()) {
+      throw new Meteor.Error("not-authorized");
+    }
+
+    Employees.remove(employeeId);
+
   }
 
 

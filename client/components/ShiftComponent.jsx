@@ -45,7 +45,10 @@ ShiftComponent = React.createClass({
         <td>{this.calculateHoursWorked(this.props.shift.startTime, this.props.shift.endTime)}</td>
         <td>{accounting.formatMoney(this.calculateHoursWorked(this.props.shift.startTime, this.props.shift.endTime) * this.data.employee.wage)}</td>
         <td>
-          <button id="deleteShiftConfirm" type="button" className="btn btn-primary btn-sm" onClick={this.deleteShift}>
+          <button id="deleteShiftConfirm"
+                  type="button"
+                  className="btn btn-primary btn-sm"
+                  onClick={this.deleteShift}>
             X
           </button>
         </td>
