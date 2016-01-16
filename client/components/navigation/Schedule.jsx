@@ -11,13 +11,13 @@ Schedule = React.createClass({
 
   renderShifts() {
     return this.data.shifts.map((shift) => {
-      return <ShiftComponent key={shift._id} shift={shift} />;
+      return <ShiftComponent key={shift._id} shift={shift}/>;
     });
   },
 
   renderEmployeeOptions() {
     return this.data.employees.map((employee) => {
-      return <EmployeeOption key={employee._id} employee={employee} />;
+      return <EmployeeOption key={employee._id} employee={employee}/>;
     });
   },
 
@@ -54,6 +54,7 @@ Schedule = React.createClass({
               <th>End Time</th>
               <th>Hours Worked</th>
               <th>Total Pay</th>
+              <th>Delete</th>
             </tr>
             </thead>
             <tbody>
