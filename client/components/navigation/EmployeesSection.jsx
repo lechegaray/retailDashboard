@@ -57,7 +57,7 @@ EmployeesSection = React.createClass({
               <form onSubmit={ this.onSubmit }>
                 <input type="text" name="firstName" placeholder="Enter employee first name" className="form-control" required />
                 <input type="text" name="lastName" placeholder="Enter employee last name" className="form-control" required />
-                <input type="number" name="wage" placeholder="Enter employee hourly wage" className="form-control" required />
+                <input type="number" step="0.01" min="0" name="wage" placeholder="Enter employee hourly wage" className="form-control" required />
                 <input type="submit" value="Insert" className="btn btn-default"/>
               </form>
 
