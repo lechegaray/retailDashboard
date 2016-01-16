@@ -3,6 +3,10 @@ Schedule = React.createClass({
   mixins: [ReactMeteorData],
 
   getMeteorData() {
+
+    Meteor.subscribe("shifts");
+    Meteor.subscribe("employees");
+
     return {
       shifts: Shifts.find({}, {sort: {date: -1}}).fetch(),
       employees: Employees.find({}).fetch()

@@ -3,6 +3,9 @@ EmployeesSection = React.createClass({
   mixins: [ReactMeteorData],
 
   getMeteorData() {
+
+    Meteor.subscribe("employees");
+
     return {
       employees: Employees.find({}).fetch()
     }

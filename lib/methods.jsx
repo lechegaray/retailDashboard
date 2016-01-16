@@ -30,6 +30,10 @@ Meteor.methods({
 
   removeShift(shiftValue) {
 
+    if (! Meteor.userId()) {
+      throw new Meteor.Error("not-authorized");
+    }
+
     Shifts.remove(shiftValue);
 
   }

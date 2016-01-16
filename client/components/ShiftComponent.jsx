@@ -7,7 +7,10 @@ ShiftComponent = React.createClass({
   mixins: [ReactMeteorData],
 
   getMeteorData() {
+    var handle = Meteor.subscribe("employees");
+
     return {
+      employeesData: handle,
       employee: Employees.findOne({_id: this.props.shift.employee})
     }
   },
