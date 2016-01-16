@@ -40,7 +40,7 @@ Schedule = React.createClass({
 
   render() {
     return (
-      <div>
+      <div className="container">
         <h1>Shifts</h1>
         <div>
           <table className="table">
