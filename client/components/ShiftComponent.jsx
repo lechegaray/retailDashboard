@@ -27,7 +27,7 @@ ShiftComponent = React.createClass({
       confirmButtonText: "Yes, delete it!",
       closeOnConfirm: false
     }, function () {
-      Shifts.remove(shiftValue);
+      Meteor.call("removeShift", shiftValue);
       swal("Deleted!", "Your shift has been deleted.", "success");
     });
   },

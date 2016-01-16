@@ -30,13 +30,7 @@ Schedule = React.createClass({
     var startTime = moment($(e.target).find("[name=start-time]").val(), "HH-mm").format();
     var endTime = moment($(e.target).find("[name=end-time]").val(), "HH-mm").format();
 
-    Shifts.insert({
-      date: date,
-      employee: employee,
-      startTime: startTime,
-      endTime: endTime,
-      createdAt: new Date()
-    });
+    Meteor.call("addShift", date, employee, startTime, endTime);
 
   },
 

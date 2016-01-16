@@ -22,12 +22,7 @@ EmployeesSection = React.createClass({
     var lastName = $(e.target).find("[name=lastName]").val();
     var wage = $(e.target).find("[name=wage]").val();
 
-    Employees.insert({
-      firstName: firstName,
-      lastName: lastName,
-      wage: wage,
-      createdAt: new Date()
-    });
+    Meteor.call("addEmployee", firstName, lastName, wage);
 
   },
 
