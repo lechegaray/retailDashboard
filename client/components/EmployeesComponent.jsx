@@ -6,7 +6,6 @@ EmployeesComponent = React.createClass({
 
   deleteEmployee() {
     var employeeId = this.props.employee._id;
-    console.log(employeeId);
     swal({
       title: "Are you sure?",
       text: "You will not be able to recover this employee!",

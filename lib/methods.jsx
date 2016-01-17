@@ -5,12 +5,18 @@ Meteor.methods({
       throw new Meteor.Error("not-authorized");
     }
 
-    Employees.insert({
-      firstName: firstName,
-      lastName: lastName,
-      wage: wage,
-      createdAt: new Date()
-    });
+    var findDuplicate = Employees.find({firstName: firstName, lastName: lastName}).count();
+
+    if (findDuplicate > 0) {
+      console.log("Duplicate entry found");
+    } else {
+      Employees.insert({
+        firstName: firstName,
+        lastName: lastName,
+        wage: wage,
+        createdAt: new Date()
+      });
+    }
   },
 
   addShift(date, employee, startTime, endTime) {
@@ -47,6 +53,5 @@ Meteor.methods({
     Employees.remove(employeeId);
 
   }
-
 
 });
