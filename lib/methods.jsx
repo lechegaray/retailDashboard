@@ -8,7 +8,7 @@ Meteor.methods({
     var findDuplicate = Employees.find({firstName: firstName, lastName: lastName}).count();
 
     if (findDuplicate > 0) {
-      console.log("Duplicate entry found");
+      console.log("Employee already found in database.");
     } else {
       Employees.insert({
         firstName: firstName,
