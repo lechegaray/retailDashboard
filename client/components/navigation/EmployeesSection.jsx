@@ -7,8 +7,27 @@ EmployeesSection = React.createClass({
     Meteor.subscribe("employees");
 
     return {
+      isAuthenticated: Meteor.userId() !== null,
       employees: Employees.find({}).fetch()
     }
+  },
+
+  componentWillMount() {
+    //check that the user is logged in
+    if (!this.data.isAuthenticated) {
+      FlowRouter.go("Login");
+    }
+  },
+
+  componentDidUpdate() {
+    //check that the user is logged in
+    if (!this.data.isAuthenticated) {
+      FlowRouter.go("Login");
+    }
+  },
+
+  getInitialState: function() {
+    return {};
   },
 
   renderEmployees() {
